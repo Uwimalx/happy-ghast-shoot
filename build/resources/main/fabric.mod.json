@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "happy-ghast-shoot",
-	"version": "${version}",
+	"version": "1.0.0",
 	"name": "Happy Ghast Shoot",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
