@@ -24,7 +24,7 @@ public class HappyGhastShootClient implements ClientModInitializer {
 
 	private static void handleShootInput(Minecraft client) {
 		while (SHOOT_KEY.consumeClick()) {
-			if (client.player == null || client.screen != null) {
+			if (client.player == null || client.gui.screen() != null) {
 				continue;
 			}
 
